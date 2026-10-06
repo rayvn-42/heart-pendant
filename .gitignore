@@ -1,0 +1,8 @@
+HeartPendant/*-backups/
+HeartPendant/.history/
+HeartPendant/_autosave-*
+HeartPendant/*.bak
+HeartPendant/*-cache.lib
+HeartPendant/fp-info-cache
+HeartPendant/*.kicad_prl
+HeartPendant/*.kicard_pro.lck
