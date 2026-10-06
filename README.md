@@ -1,6 +1,8 @@
 ## Heart Pendant
 > A two part PCB, one used as a bracelet that senses heart pulses, and a pendant shaped as a heart that shows them
 
+![Heart Pendant Logo](Resources/Images/Heart_Pendant_Logo.png)
+
 ---
 
 ### What is Heart Pendant?
