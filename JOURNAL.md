@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 2 | 9h | 2 |
+| Week 1 | Tier 2 | 14h | 2 |
 
 ## Contents
 
@@ -44,10 +44,10 @@ That's it so far, for tomorrow I'll probably work on the actual pulse sensor, an
 
 ### 2026-10-07 — ## Finished the bracelet, and started on Pendant :)
 
-**4h**
+**9h**
 
 ## Finished the bracelet, and started on Pendant :)
-> TL;DR: Finished working on the bracelet by adding the pulse sensor as a custom symbol, And started on the Pendant.
+> TL;DR: Finished working on the bracelet by adding the pulse sensor as a custom symbol, And started on the Pendant, Added LEDs.
 ---
 First, I ran the ERC to make sure everything was working, had some warnings but nothing major, then I looked for the pulse sensor that I was going to use, and found an I2C breakout board that could soldered on top of the bracelet PCB.
 
@@ -65,4 +65,20 @@ After that was done, basically the bracelet schematic half was done. Next I adde
 
 ![Screenshot_20261007_162416](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/XoBihhfZo6FAvvRPA5lxGMbSZAmBagkB/314520b4fe416b3389c370f2e2bc3dfaeaa8e6243fc573e083ed5988adfe7914.png)
 
-Next I picked the addressable led modules that I was going to use, ...
+Next I picked the addressable led modules that I was going to use, I first considered using a seperate module, but then later setteled on just getting the raw led, after searching, I found SK6812 MINI-E, which are RBG Addressable LEDs, which is perfect, it even allowed me to show different colors when for example the pendant is charging and stuff.
+
+![Screenshot_20261007_202945](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/XoBihhfZo6FAvvRPA5lxGMbSZAmBagkB/892712bafd284a2751d4e119312ee388b4f26f3896929f1fcd9d21d7713f0fac.png)
+
+Then I had to add a mosfet transistor because even when the LEDs are off, they still consume energy which will drain the battery, I found a design and just to be honest copied it. It uses two transistors, which basically make sure the full voltage goes through. I used 2N7002 and A03401A.
+
+![Screenshot_20261007_202645](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/XoBihhfZo6FAvvRPA5lxGMbSZAmBagkB/26507218223d1ce3c024eec16681c3e50b00ddc968fabbaef7cb97a35a11e912.png)
+
+![Screenshot_20261007_202848](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/XoBihhfZo6FAvvRPA5lxGMbSZAmBagkB/51d3ece9d0dba9e0b4df07e7b677a05f49d1a199f897fb8420d71ead5ed00b41.png)
+
+Then I first started by implementing the two part power management part.
+
+![Screenshot_20261007_203724](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/XoBihhfZo6FAvvRPA5lxGMbSZAmBagkB/e1fae38df94dfadba23f1cb2ea02a9ebd6e1a3ddbf89b49ea5c8221ae5d1cb18.png)
+
+Then added the LEDs, also adding a current limiting resistor and 100nF capacitors from the LED voltage to ground. And that was it.
+
+![Screenshot_20261007_201535](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/XoBihhfZo6FAvvRPA5lxGMbSZAmBagkB/3dfa9d8aeb6d612565ced957093a1908ff98321fcdc07991578a9231f2177790.png)
