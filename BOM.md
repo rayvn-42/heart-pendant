@@ -14,7 +14,7 @@
 | --- | --- | --- | --- | --- | --- |
 | [MAX30102 Module](https://www.moussasoft.com/produit/max30102-module-capteur-doxygene-et-rythme-cardiaque/) | The heartbeat pulse sensor, for the bracelet | 1 | $5.54 | $5.54 | [Moussasoft](https://www.moussasoft.com/produit/max30102-module-capteur-doxygene-et-rythme-cardiaque/) |
 | **Parts subtotal** | — | — | — | **$5.54** | — |
-| **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$5.54** | — |
+| **Tax & shipping** | — | — | — | **$3.53** | — |
+| **Total** | — | — | — | **$9.07** | — |
 
-$59.46 left of the tier's funding.
+$55.93 left of the tier's funding.
