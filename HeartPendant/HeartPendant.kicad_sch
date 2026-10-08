@@ -417,7 +417,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x01_Pin"
+		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -437,8 +437,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -469,7 +469,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
+			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -512,10 +512,21 @@
 					)
 				)
 			)
-			(symbol "Conn_01x01_Pin_1_1"
+			(symbol "Conn_01x02_Pin_1_1"
 				(rectangle
 					(start 0.8636 0.127)
 					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -536,6 +547,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
@@ -547,6 +570,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4622,6 +4663,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 132.08) (xy 85.09 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0696f20c-e7c4-4d37-a4ef-ba5f9a9753fa")
+	)
+	(wire
+		(pts
 			(xy 72.39 30.48) (xy 74.93 30.48)
 		)
 		(stroke
@@ -5112,7 +5163,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 156.21) (xy 86.36 142.24)
+			(xy 86.36 135.89) (xy 86.36 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5129,6 +5180,16 @@
 			(type default)
 		)
 		(uuid "678b07df-3d27-41fb-b278-9fc7c4ddf74b")
+	)
+	(wire
+		(pts
+			(xy 85.09 133.35) (xy 86.36 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6babb52e-3e65-42ea-acac-4bc507c12012")
 	)
 	(wire
 		(pts
@@ -5542,7 +5603,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 132.08) (xy 86.36 132.08)
+			(xy 71.12 132.08) (xy 85.09 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6651,6 +6712,88 @@
 		(uuid "fa9ba25e-a506-49f1-83d7-0db2c7c345af")
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 91.44 135.89 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08025700-1b91-42ef-be97-874cd125dc4e")
+		(property "Reference" "J1"
+			(at 92.71 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Bat"
+			(at 92.71 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 91.44 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 91.44 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1dfdcedc-3e74-48cd-babf-8b920b4b3db9")
+		)
+		(pin "2"
+			(uuid "ff6b114c-e82a-458c-97bc-9a1589a46c14")
+		)
+		(instances
+			(project "HeartPendant"
+				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 30.48 67.31 0)
 		(unit 1)
@@ -6684,7 +6827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C3-DevKitM-1"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 28.702 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -6744,7 +6887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b3f230a-e7c4-42e9-8390-b01511fee56f")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG05"
 			(at 147.32 90.805 0)
 			(hide yes)
 			(show_name no)
@@ -6804,7 +6947,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3"
-					(reference "#FLG03")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -6842,7 +6985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Cree-XHP50_3V_HighDensity"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 78.74 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -7108,7 +7251,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 182.88 43.688 90)
 			(hide yes)
 			(show_name no)
@@ -7151,83 +7294,6 @@
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 91.44 142.24 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d164c48-1526-4394-a352-926aec957df8")
-		(property "Reference" "J2"
-			(at 90.805 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Bat -"
-			(at 90.805 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 91.44 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 91.44 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9e291b7d-72ae-4284-a05d-241de53cf377")
-		)
-		(instances
-			(project "HeartPendant"
-				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7354,7 +7420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C3-DevKitM-1"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.1 92.202 90)
 			(hide yes)
 			(show_name no)
@@ -7414,7 +7480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34a7c408-de8a-4ba6-950d-5ea60e2495e8")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG04"
 			(at 144.145 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7475,7 +7541,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3"
-					(reference "#FLG02")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -7515,7 +7581,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 43.4848 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7594,7 +7660,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 22.098 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -7674,7 +7740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 182.88 34.798 90)
 			(hide yes)
 			(show_name no)
@@ -7831,7 +7897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 36.83 160.3248 0)
 			(hide yes)
 			(show_name no)
@@ -7913,7 +7979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 144.4752 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7995,7 +8061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 168.6052 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8733,7 +8799,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 32.0548 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8813,7 +8879,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 66.04 147.828 90)
 			(hide yes)
 			(show_name no)
@@ -8985,7 +9051,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 30.48 157.988 90)
 			(hide yes)
 			(show_name no)
@@ -9065,7 +9131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C3-DevKitM-1"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.1 101.092 90)
 			(hide yes)
 			(show_name no)
@@ -9226,7 +9292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 26.162 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -9306,7 +9372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+		(property "Footprint" "MSK12C02:SW-TH_MSK12C02"
 			(at 43.18 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -9391,7 +9457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 31.4452 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9529,7 +9595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5bfaac9-530f-4e97-aff1-3dee6bbf385c")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG02"
 			(at 97.79 95.885 0)
 			(hide yes)
 			(show_name no)
@@ -9589,84 +9655,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3"
-					(reference "#FLG09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 91.44 132.08 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6ca472f-6b19-4e44-9f69-129ddc8cd99d")
-		(property "Reference" "J1"
-			(at 90.805 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Bat +"
-			(at 90.805 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 91.44 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 91.44 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a531ad23-dd95-4e4f-af13-a64bb178e66a")
-		)
-		(instances
-			(project "HeartPendant"
-				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3"
-					(reference "J1")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -9704,7 +9693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+		(property "Footprint" "HX_Push_SW:SW-SMD_4P-L4.2-W3.4-P2.15-LS5.2"
 			(at 38.1 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9862,7 +9851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.99 127.3048 0)
 			(hide yes)
 			(show_name no)
@@ -9942,7 +9931,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HeartPendant:Max30102_Module"
 			(at 119.38 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10040,7 +10029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 55.88 140.0048 0)
 			(hide yes)
 			(show_name no)
@@ -10100,7 +10089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0fc0380-f1f8-4920-9336-d3cf8ff7da4b")
-		(property "Reference" "#FLG010"
+		(property "Reference" "#FLG03"
 			(at 106.68 141.605 0)
 			(hide yes)
 			(show_name no)
@@ -10160,7 +10149,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3"
-					(reference "#FLG010")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -10178,7 +10167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5da34fa-8c39-4607-a72e-67bfa7d9d1b2")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 153.67 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10198,7 +10187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 157.48 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10285,7 +10274,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)

@@ -197,7 +197,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x01_Pin"
+		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -217,8 +217,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -249,7 +249,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
+			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -292,10 +292,21 @@
 					)
 				)
 			)
-			(symbol "Conn_01x01_Pin_1_1"
+			(symbol "Conn_01x02_Pin_1_1"
 				(rectangle
 					(start 0.8636 0.127)
 					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -316,6 +327,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
@@ -327,6 +350,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5768,6 +5809,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 132.08) (xy 87.63 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d693d3b-af05-48ea-b33b-4c298fb6002a")
+	)
+	(wire
+		(pts
 			(xy 266.7 119.38) (xy 266.7 124.46)
 		)
 		(stroke
@@ -6355,6 +6406,16 @@
 			(type default)
 		)
 		(uuid "67f209eb-6d32-403b-8334-2396aa4f31f3")
+	)
+	(wire
+		(pts
+			(xy 87.63 135.89) (xy 87.63 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688dcc89-e4a9-4670-80ca-0f728df40264")
 	)
 	(wire
 		(pts
@@ -7698,16 +7759,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 156.21) (xy 87.63 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f09c5d1b-9b8c-42d0-ae27-324eb3bf06d4")
-	)
-	(wire
-		(pts
 			(xy 199.39 143.51) (xy 212.09 143.51)
 		)
 		(stroke
@@ -8715,83 +8766,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 92.71 142.24 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06de7a9d-bdda-4b8b-836f-1bb78661b333")
-		(property "Reference" "J5"
-			(at 92.075 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Bat -"
-			(at 92.075 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 92.71 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 92.71 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "51fd78b3-1081-4d9b-9e1c-e48c5d9bb3d0")
-		)
-		(instances
-			(project "HeartPendant"
-				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 172.72 151.13 0)
 		(unit 1)
@@ -8802,7 +8776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0952db09-df1f-4f59-9493-f45767ac537e")
-		(property "Reference" "C23"
+		(property "Reference" "C17"
 			(at 173.99 153.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8824,7 +8798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.6852 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8866,7 +8840,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "C23")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -8884,7 +8858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "105795d2-7b8b-4a13-9dc7-8ed0103ae1cb")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 121.92 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8944,7 +8918,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8962,7 +8936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "141f42f0-afaa-444d-88bf-b96e189f09e9")
-		(property "Reference" "C15"
+		(property "Reference" "C24"
 			(at 250.19 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8984,7 +8958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 247.3452 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9026,7 +9000,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "C15")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -9044,7 +9018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16c10cd7-4f4b-444c-8712-8d35f71073c3")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR017"
 			(at 163.83 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9104,7 +9078,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#PWR021")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9122,7 +9096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17d714bb-bb9f-46ef-befb-11e61163e2bc")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR016"
 			(at 163.83 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9182,7 +9156,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#PWR018")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9199,7 +9173,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "193b56f7-4a70-41c3-803d-97d414189c9e")
-		(property "Reference" "C24"
+		(property "Reference" "C20"
 			(at 201.93 153.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9221,7 +9195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 201.6252 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9263,7 +9237,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "C24")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -9281,7 +9255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a28c3d8-7bee-4d14-a708-b034119d3ac1")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 269.24 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9341,7 +9315,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9359,7 +9333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25d02715-c9ba-49ab-9d58-f22811429835")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR029"
 			(at 270.51 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -9419,7 +9393,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#PWR016")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -9437,7 +9411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "291d4746-cc2f-4263-8637-9dc00a72af0a")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG09"
 			(at 145.415 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9498,7 +9472,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#FLG05")
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -9516,7 +9490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2939935f-67ae-4b4e-afe0-97645591d96b")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 219.71 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9576,7 +9550,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9594,7 +9568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34f16d2e-01c4-4483-b922-c7c04d4db952")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 137.16 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9662,84 +9636,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 92.71 132.08 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3527594a-88f4-4168-b2f3-95bf27a138ae")
-		(property "Reference" "J4"
-			(at 92.075 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Bat +"
-			(at 92.075 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 92.71 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 92.71 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8203c7e1-50f9-4ddc-802a-8047a533875a")
-		)
-		(instances
-			(project "HeartPendant"
-				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "J4")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -9757,7 +9654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "358b7829-8c44-4f47-b294-a7c1209dd647")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR025"
 			(at 259.08 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9817,7 +9714,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#PWR015")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9834,7 +9731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b7baeeb-c65e-453b-b898-c376b576dcb0")
-		(property "Reference" "C27"
+		(property "Reference" "C26"
 			(at 265.684 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9856,7 +9753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 266.7 90.4748 0)
 			(hide yes)
 			(show_name no)
@@ -9898,7 +9795,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "C27")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -9936,7 +9833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 57.15 140.0048 0)
 			(hide yes)
 			(show_name no)
@@ -9995,7 +9892,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40c8db7f-5b3d-46f7-9df5-2d1cb630b6d5")
-		(property "Reference" "C19"
+		(property "Reference" "C21"
 			(at 229.87 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10017,7 +9914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 229.5652 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10059,7 +9956,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "C19")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -10164,7 +10061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4501234e-9587-4bb0-9c64-0cc77b9f9083")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR024"
 			(at 219.71 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -10224,7 +10121,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#PWR026")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -10320,7 +10217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "487d0499-978c-4ebe-96d3-38f5b669bd5c")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 121.92 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10380,7 +10277,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10418,7 +10315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Cree-XHP50_3V_HighDensity"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 80.01 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -10488,7 +10385,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51e4734b-5ebd-48aa-a180-9d52b7a8468e")
-		(property "Reference" "D12"
+		(property "Reference" "D14"
 			(at 259.588 137.414 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10558,7 +10455,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "D12")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -10576,7 +10473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53427e61-1434-42e6-a6ff-373781d2808c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 147.32 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10636,7 +10533,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10653,7 +10550,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "556768ae-b7fa-4ba6-a28e-9bf27ddd76a9")
-		(property "Reference" "D4"
+		(property "Reference" "D6"
 			(at 182.626 99.568 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10723,7 +10620,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "D4")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -10740,7 +10637,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5803443f-cc82-4296-97ae-1928bba6ce64")
-		(property "Reference" "C25"
+		(property "Reference" "C23"
 			(at 229.87 153.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10762,7 +10659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 229.5652 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10804,7 +10701,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "C25")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -11087,7 +10984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "615d0653-c754-4aaf-830e-668046d5cc9d")
-		(property "Reference" "D8"
+		(property "Reference" "D10"
 			(at 210.566 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11157,7 +11054,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "D8")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -11197,7 +11094,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 44.7548 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11257,7 +11154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67d7cb82-3bfc-484e-90fd-87494871749d")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG06"
 			(at 34.925 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11318,7 +11215,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#FLG04")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -11335,7 +11232,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c307361-23cc-4fc2-bcc6-07b68149e51a")
-		(property "Reference" "C26"
+		(property "Reference" "C27"
 			(at 265.684 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11357,7 +11254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 266.7 118.4148 0)
 			(hide yes)
 			(show_name no)
@@ -11399,7 +11296,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "C26")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -11528,7 +11425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 38.1 160.3248 0)
 			(hide yes)
 			(show_name no)
@@ -11588,7 +11485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7539abca-24ba-42c5-88a1-17fd8ec70c4a")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG08"
 			(at 143.51 180.975 0)
 			(hide yes)
 			(show_name no)
@@ -11648,7 +11545,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#FLG07")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -11753,7 +11650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "760e2178-9ca6-42ac-9342-ef28acbbf0bb")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 114.3 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11821,7 +11718,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -11838,7 +11735,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "764bd256-7892-42a4-b4f3-5d1c663e674d")
-		(property "Reference" "D10"
+		(property "Reference" "D8"
 			(at 182.626 147.828 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11908,7 +11805,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "D10")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -11947,7 +11844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 201.6252 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12006,7 +11903,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77f1ddf6-8563-401f-ad15-85caf46aafd2")
-		(property "Reference" "C21"
+		(property "Reference" "C19"
 			(at 201.93 129.794 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12028,7 +11925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 201.6252 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -12070,7 +11967,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "C21")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -12087,7 +11984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "781a33ba-7ea5-4b5a-9eb4-2758377b8da6")
-		(property "Reference" "D5"
+		(property "Reference" "D9"
 			(at 210.566 99.568 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12157,7 +12054,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "D5")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -12195,7 +12092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C3-DevKitM-1"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 39.37 101.092 90)
 			(hide yes)
 			(show_name no)
@@ -12255,7 +12152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7be32a70-f804-4739-804b-39ef33691fdf")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR021"
 			(at 191.77 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12315,7 +12212,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#PWR025")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12353,7 +12250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 48.26 127.3048 0)
 			(hide yes)
 			(show_name no)
@@ -12433,7 +12330,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 31.75 157.988 90)
 			(hide yes)
 			(show_name no)
@@ -12493,7 +12390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "932de42c-37cf-4a1c-8c08-bf3a13c0e8b7")
-		(property "Reference" "C16"
+		(property "Reference" "C28"
 			(at 274.32 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12515,7 +12412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 271.4752 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -12557,7 +12454,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "C16")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -12595,7 +12492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+		(property "Footprint" "HX_Push_SW:SW-SMD_4P-L4.2-W3.4-P2.15-LS5.2"
 			(at 39.37 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -12742,7 +12639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a07fff03-6aae-4cc3-8c12-8ded2e649731")
-		(property "Reference" "U9"
+		(property "Reference" "U8"
 			(at 213.7411 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12821,7 +12718,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "U9")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -12925,7 +12822,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4c686a0-2b4e-497b-8072-5075a9808c3a")
-		(property "Reference" "D9"
+		(property "Reference" "D5"
 			(at 154.686 147.828 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12995,7 +12892,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "D9")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -13012,7 +12909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a843ddb9-c4c6-49df-95f9-bc1ad9f888f0")
-		(property "Reference" "C20"
+		(property "Reference" "C16"
 			(at 173.99 129.794 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13034,7 +12931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.6852 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13076,7 +12973,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "C20")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -13115,7 +13012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 229.5652 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13197,7 +13094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C3-DevKitM-1"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 29.972 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -13257,7 +13154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3d57cb7-216c-4c2d-af19-e67a1e2cc2c8")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG010"
 			(at 250.19 22.225 0)
 			(hide yes)
 			(show_name no)
@@ -13317,7 +13214,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#FLG06")
+					(reference "#FLG010")
 					(unit 1)
 				)
 			)
@@ -13355,7 +13252,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 67.31 147.828 90)
 			(hide yes)
 			(show_name no)
@@ -13415,7 +13312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b75f19d9-0c8e-46eb-8021-a89d32cf922a")
-		(property "Reference" "R21"
+		(property "Reference" "R19"
 			(at 149.86 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13435,7 +13332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 149.86 97.028 90)
 			(hide yes)
 			(show_name no)
@@ -13477,7 +13374,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "R21")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -13514,7 +13411,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 23.368 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -13574,7 +13471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c41ade8f-30fd-4326-bb39-b101dc76a106")
-		(property "Reference" "R18"
+		(property "Reference" "R21"
 			(at 184.15 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13594,7 +13491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 184.15 43.688 90)
 			(hide yes)
 			(show_name no)
@@ -13636,7 +13533,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "R18")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -13654,7 +13551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c453f574-a961-421f-a0c9-bb7e7cc614cc")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR020"
 			(at 191.77 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -13714,7 +13611,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#PWR022")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -13732,7 +13629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c886ec13-7376-498f-863d-c8382b4d8a41")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR018"
 			(at 163.83 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -13792,7 +13689,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#PWR024")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -13887,7 +13784,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce7cd515-547c-4884-9551-45d10d979687")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 154.686 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13957,7 +13854,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -13995,7 +13892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C3-DevKitM-1"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 39.37 92.202 90)
 			(hide yes)
 			(show_name no)
@@ -14077,7 +13974,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 32.7152 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -14157,7 +14054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+		(property "Footprint" "MSK12C02:SW-TH_MSK12C02"
 			(at 44.45 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -14242,7 +14139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 33.3248 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -14302,7 +14199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d280b2a4-4778-4cbe-8f2f-f1576818ead1")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 154.94 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14322,7 +14219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 158.75 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14409,7 +14306,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -14427,7 +14324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7665b67-3856-4065-ad76-fd9d30375d1a")
-		(property "Reference" "U8"
+		(property "Reference" "U9"
 			(at 259.08 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14498,7 +14395,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "U8")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -14515,7 +14412,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcdf62d5-55b1-4170-a22f-c92b1f0da21c")
-		(property "Reference" "C17"
+		(property "Reference" "C15"
 			(at 173.99 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14537,7 +14434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.6852 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -14579,7 +14476,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "C17")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -14675,7 +14572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0b457cc-7a4c-4cd3-9e50-6b10ebb9eb54")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR012"
 			(at 104.14 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -14735,7 +14632,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#PWR017")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -14753,7 +14650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4ee465b-50e9-4760-95a5-a40fd13fc28d")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 125.73 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14773,7 +14670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 184.658 90)
 			(hide yes)
 			(show_name no)
@@ -14815,7 +14712,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -14855,7 +14752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 27.432 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -14914,7 +14811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e94527e4-fe4c-47b7-81a0-0c66a0ea54ee")
-		(property "Reference" "C28"
+		(property "Reference" "C25"
 			(at 265.684 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14936,7 +14833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 266.7 62.5348 0)
 			(hide yes)
 			(show_name no)
@@ -14978,7 +14875,89 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "C28")
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 92.71 135.89 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9a1a061-20c8-44d8-a470-8a46524ee602")
+		(property "Reference" "J3"
+			(at 93.98 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Bat"
+			(at 93.98 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 92.71 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 92.71 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b9d48d04-8200-4a20-ac06-cfbb974decbf")
+		)
+		(pin "1"
+			(uuid "6471c7e4-015f-4d9f-b821-e60971f98e46")
+		)
+		(instances
+			(project "HeartPendant"
+				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -14996,7 +14975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb869844-9e8c-4133-a21b-f43b845f973b")
-		(property "Reference" "R17"
+		(property "Reference" "R20"
 			(at 184.15 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15016,7 +14995,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 184.15 34.798 90)
 			(hide yes)
 			(show_name no)
@@ -15058,7 +15037,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "R17")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -15075,7 +15054,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb9307fd-9955-4a82-8993-1820fbad8e0c")
-		(property "Reference" "D14"
+		(property "Reference" "D12"
 			(at 259.588 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15145,7 +15124,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "D14")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -15163,7 +15142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec5fb664-8533-45cf-9915-84059cf47f3d")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR026"
 			(at 269.24 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -15223,7 +15202,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#PWR029")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15241,7 +15220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f48c1784-353f-44c7-8c44-73686ed9cd2f")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 269.24 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15301,7 +15280,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -15319,7 +15298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f65ad1bd-ae84-48f8-b92c-0514c0e224ee")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG07"
 			(at 137.16 169.545 0)
 			(hide yes)
 			(show_name no)
@@ -15379,7 +15358,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "#FLG08")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -15396,7 +15375,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f82ed482-5cb0-4b52-8899-99ed4c5a1e62")
-		(property "Reference" "R20"
+		(property "Reference" "R17"
 			(at 107.95 175.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15416,7 +15395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 174.498 90)
 			(hide yes)
 			(show_name no)
@@ -15458,7 +15437,7 @@
 		(instances
 			(project "HeartPendant"
 				(path "/d37f7931-1da1-4601-a5a1-c9653043c2a3/d0dead40-8c11-4d7c-be68-5264df1020ae"
-					(reference "R20")
+					(reference "R17")
 					(unit 1)
 				)
 			)
