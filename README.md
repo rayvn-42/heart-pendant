@@ -18,7 +18,7 @@ The bracelet's ESP32-C3 reads a heartbeat sensor module and detects each beat. I
 
 ## So far
 - [x] Schematic: ESP32 core, USB-C input, charger, regulator, power switch, battery sensing
-- [ ] Pulse sensor and LED ring
-- [ ] PCB layout
+- [x] Pulse sensor and LED ring
+- [x] PCB layout
 - [ ] Firmware
 - [ ] Case and strap
