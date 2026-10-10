@@ -15,7 +15,7 @@
 | [PCB Components](https://www.lcsc.com/product-detail/C41349510.html?spm=wm.gwc.xh.3.cbm___wm.lqy.qb.4.yhq&lcsc_vid=RAcKUwJQQVhZUAZUFVIIVFwEQABXAwJeQFcKBgIEElgxVlNfRldaV1JXR1VaVzsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D) | All components for the pcb, not indivdually listed since part value too low | 1 | $21.29 | $21.29 | [LCSC](https://www.lcsc.com/product-detail/C41349510.html?spm=wm.gwc.xh.3.cbm___wm.lqy.qb.4.yhq&lcsc_vid=RAcKUwJQQVhZUAZUFVIIVFwEQABXAwJeQFcKBgIEElgxVlNfRldaV1JXR1VaVzsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D) |
 | [PCB + Stencil](https://cart.jlcpcb.com/shopcart/cart) | The Board and Stencil | 1 | $16.72 | $16.72 | [JLCPCB](https://cart.jlcpcb.com/shopcart/cart) |
 | **Parts subtotal** | — | — | — | **$38.01** | — |
-| **Tax & shipping** | — | — | — | **$65.82** | — |
-| **Total** | — | — | — | **$103.83** | — |
+| **Tax & shipping** | — | — | — | **$62.29** | — |
+| **Total** | — | — | — | **$100.30** | — |
 
-**$3.83 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+**$0.30 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
