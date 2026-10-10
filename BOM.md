@@ -12,11 +12,10 @@
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
-| [MAX30102 Module](https://www.moussasoft.com/produit/max30102-module-capteur-doxygene-et-rythme-cardiaque/) | The heartbeat pulse sensor, for the bracelet | 1 | $5.54 | $5.54 | [Moussasoft](https://www.moussasoft.com/produit/max30102-module-capteur-doxygene-et-rythme-cardiaque/) |
 | [PCB Components](https://www.lcsc.com/product-detail/C41349510.html?spm=wm.gwc.xh.3.cbm___wm.lqy.qb.4.yhq&lcsc_vid=RAcKUwJQQVhZUAZUFVIIVFwEQABXAwJeQFcKBgIEElgxVlNfRldaV1JXR1VaVzsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D) | All components for the pcb, not indivdually listed since part value too low | 1 | $21.29 | $21.29 | [LCSC](https://www.lcsc.com/product-detail/C41349510.html?spm=wm.gwc.xh.3.cbm___wm.lqy.qb.4.yhq&lcsc_vid=RAcKUwJQQVhZUAZUFVIIVFwEQABXAwJeQFcKBgIEElgxVlNfRldaV1JXR1VaVzsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D) |
 | [PCB + Stencil](https://cart.jlcpcb.com/shopcart/cart) | The Board and Stencil | 1 | $16.72 | $16.72 | [JLCPCB](https://cart.jlcpcb.com/shopcart/cart) |
-| **Parts subtotal** | — | — | — | **$43.55** | — |
+| **Parts subtotal** | — | — | — | **$38.01** | — |
 | **Tax & shipping** | — | — | — | **$3.53** | — |
-| **Total** | — | — | — | **$47.08** | — |
+| **Total** | — | — | — | **$41.54** | — |
 
-$52.92 left of the tier's funding.
+$58.46 left of the tier's funding.
