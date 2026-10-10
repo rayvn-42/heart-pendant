@@ -13,11 +13,6 @@
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
 | [MAX30102 Module](https://www.moussasoft.com/produit/max30102-module-capteur-doxygene-et-rythme-cardiaque/) | The heartbeat pulse sensor, for the bracelet | 1 | $5.54 | $5.54 | [Moussasoft](https://www.moussasoft.com/produit/max30102-module-capteur-doxygene-et-rythme-cardiaque/) |
-| 10k | — | 9 | $0.00 | $0.00 | — |
-| 470R | — | 2 | $0.00 | $0.00 | — |
-| 330R | — | 1 | $0.00 | $0.00 | — |
-| 5.1k | — | 4 | $0.00 | $0.00 | — |
-| SW_Boot | — | 2 | $0.00 | $0.00 | — |
 | SW_SPDT | — | 2 | $0.00 | $0.00 | — |
 | MCP73831-2-OT | — | 2 | $0.00 | $0.00 | — |
 | ESP32-C3-MINI-1-N4X | — | 2 | $0.00 | $0.00 | — |
