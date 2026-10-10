@@ -13,9 +13,6 @@
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
 | [MAX30102 Module](https://www.moussasoft.com/produit/max30102-module-capteur-doxygene-et-rythme-cardiaque/) | The heartbeat pulse sensor, for the bracelet | 1 | $5.54 | $5.54 | [Moussasoft](https://www.moussasoft.com/produit/max30102-module-capteur-doxygene-et-rythme-cardiaque/) |
-| LED | — | 2 | $0.00 | $0.00 | — |
-| SK6812MINI-E | — | 12 | $0.00 | $0.00 | — |
-| USB_C_Receptacle_USB2.0_16P | — | 2 | $0.00 | $0.00 | — |
 | 2N7002 | — | 1 | $0.00 | $0.00 | — |
 | AO3401A | — | 1 | $0.00 | $0.00 | — |
 | 100k | — | 5 | $0.00 | $0.00 | — |
