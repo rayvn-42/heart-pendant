@@ -6717,10 +6717,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "08025700-1b91-42ef-be97-874cd125dc4e")
 		(property "Reference" "J1"
@@ -6850,6 +6850,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 30.48 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15401"
 			(at 30.48 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7029,6 +7040,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C2286"
+			(at 78.74 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64033103-c5c6-41c2-b52b-d240d134759e")
 		)
@@ -7192,6 +7214,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C7519"
+			(at 210.82 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "ff42c05a-e7a8-4799-84bb-68acbeab48ec")
 		)
@@ -7284,6 +7317,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C14677"
+			(at 182.88 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ce45e717-afd6-4ede-acb8-bb3a44c32898")
 		)
@@ -7354,6 +7398,17 @@
 			)
 		)
 		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+			(at 156.21 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C51118"
 			(at 156.21 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7444,6 +7499,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 38.1 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15401"
+			(at 38.1 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7614,6 +7680,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1590"
+			(at 44.45 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "be3f0be1-aa12-4e91-b9a7-9a050c4f2395")
 		)
@@ -7684,6 +7761,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 20.32 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14675"
+			(at 20.32 175.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7764,6 +7852,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 182.88 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14677"
+			(at 182.88 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7930,6 +8029,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1705"
+			(at 33.02 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6bd602a2-0dfa-431e-9122-e59500c0ba30")
 		)
@@ -8012,6 +8122,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1592"
+			(at 143.51 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c8ea1729-0edf-4eff-b28f-d97f8bf43e2e")
 		)
@@ -8084,6 +8205,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1592"
 			(at 167.64 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8832,6 +8964,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1713"
+			(at 33.02 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1494b8b4-2e8b-4a48-b750-28ec5cfc7a82")
 		)
@@ -8903,6 +9046,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 66.04 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23179"
+			(at 66.04 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8985,6 +9139,17 @@
 			)
 		)
 		(property "Description" "Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package"
+			(at 35.56 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14879"
 			(at 35.56 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -9084,6 +9249,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C15401"
+			(at 30.48 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a0739803-4de0-48d4-bd4b-80dcb2138b99")
 		)
@@ -9155,6 +9331,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 38.1 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15401"
+			(at 38.1 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9325,6 +9512,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C14675"
+			(at 27.94 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d728e9a5-44d7-42ce-b809-3a61a36a54cc")
 		)
@@ -9395,6 +9593,17 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 43.18 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C431540"
 			(at 43.18 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -9480,6 +9689,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 30.48 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1592"
 			(at 30.48 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9726,6 +9946,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C55200589"
+			(at 38.1 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b795ae53-cca0-47c4-98e3-d7b93bf908c9")
 		)
@@ -9884,6 +10115,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1705"
+			(at 43.18 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f70f37a3-365d-4237-9ee1-400a6c2801a1")
 		)
@@ -9905,10 +10147,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "eeb17698-158a-4316-aa58-8882575d92b5")
 		(property "Reference" "U3"
@@ -10053,6 +10295,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 52.07 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1705"
+			(at 52.07 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10210,6 +10463,17 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 153.67 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C165948"
 			(at 153.67 43.18 0)
 			(hide yes)
 			(show_name no)

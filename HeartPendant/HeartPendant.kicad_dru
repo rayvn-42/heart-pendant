@@ -1,0 +1,5 @@
+(version 1)
+
+(rule "Ignore_Edge_Clearance_D3_to_D14"
+  (constraint edge_clearance (min 0.0mm))
+  (condition "A.Reference == 'D3' || A.Reference == 'D4' || A.Reference == 'D5' || A.Reference == 'D6' || A.Reference == 'D7' || A.Reference == 'D8' || A.Reference == 'D9' || A.Reference == 'D10' || A.Reference == 'D11' || A.Reference == 'D12' || A.Reference == 'D13' || A.Reference == 'D14' || A.Reference == 'SW2'"))

@@ -8831,6 +8831,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1590"
+			(at 172.72 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7809fbf4-6587-4e18-8b52-a976a8e5afda")
 		)
@@ -8981,6 +8992,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 246.38 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1592"
 			(at 246.38 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9218,6 +9240,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 200.66 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1590"
 			(at 200.66 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -9624,6 +9657,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C478608"
+			(at 137.16 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a8c4107-16cf-4cbe-8430-1a45fdc2e5a1")
 		)
@@ -9786,6 +9830,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1590"
+			(at 262.89 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c1a30087-7697-4e6a-8c04-ebc5a7935cd0")
 		)
@@ -9857,6 +9912,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 53.34 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1705"
+			(at 53.34 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9947,6 +10013,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1590"
+			(at 228.6 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e1727db5-8560-4ad9-bb09-c2321d6988ef")
 		)
@@ -10018,6 +10095,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 219.71 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5149201"
 			(at 219.71 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -10359,6 +10447,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C2286"
+			(at 80.01 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2767681a-2e12-4455-aa26-6133e13309b5")
 		)
@@ -10430,6 +10529,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 255.27 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5149201"
 			(at 255.27 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -10605,6 +10715,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5149201"
+			(at 191.77 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9b70c459-739a-4ae2-9e27-17998b09381b")
 		)
@@ -10682,6 +10803,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 228.6 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1590"
 			(at 228.6 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11039,6 +11171,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5149201"
+			(at 219.71 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "35335d9d-0cf7-4adc-b742-3c9c8184ad1e")
 		)
@@ -11117,6 +11260,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 45.72 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1590"
 			(at 45.72 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11287,6 +11441,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1590"
+			(at 262.89 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e07902fd-5eae-4a99-94f0-da676e094b37")
 		)
@@ -11360,6 +11525,17 @@
 			)
 		)
 		(property "Description" "Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package"
+			(at 36.83 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14879"
 			(at 36.83 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -11449,6 +11625,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 34.29 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1705"
+			(at 34.29 161.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11617,6 +11804,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5149201"
+			(at 163.83 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9574046d-a1eb-4f4d-855e-911ee519e7c6")
 		)
@@ -11706,6 +11904,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C8545"
+			(at 114.3 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "367959fb-08fd-4496-b876-d3ebf5e438b4")
 		)
@@ -11780,6 +11989,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 191.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5149201"
 			(at 191.77 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -11877,6 +12097,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1590"
+			(at 200.66 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f923890f-2c5e-49d4-ab17-2c83bcb0c7e5")
 		)
@@ -11948,6 +12179,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 200.66 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1590"
 			(at 200.66 127 0)
 			(hide yes)
 			(show_name no)
@@ -12039,6 +12281,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5149201"
+			(at 219.71 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aa56507c-8b85-41c3-99e5-1f54d177badb")
 		)
@@ -12116,6 +12369,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 39.37 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15401"
+			(at 39.37 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12283,6 +12547,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1705"
+			(at 44.45 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8962a836-d759-4dd6-a391-94aa6a7b3c48")
 		)
@@ -12354,6 +12629,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 31.75 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15401"
+			(at 31.75 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12445,6 +12731,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1592"
+			(at 270.51 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3e13927f-0908-42bd-a236-67e5ab6835b4")
 		)
@@ -12515,6 +12812,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 39.37 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C55200589"
 			(at 39.37 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12606,6 +12914,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5149201"
+			(at 255.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "75693e2c-d728-46bc-bbf8-8c20b90e250d")
 		)
@@ -12687,6 +13006,17 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 212.09 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C7519"
 			(at 212.09 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -12790,6 +13120,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5149201"
+			(at 191.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dc210ee5-29b4-4dca-8488-8ea8c99b4f9e")
 		)
@@ -12867,6 +13208,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 163.83 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5149201"
 			(at 163.83 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -12964,6 +13316,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1590"
+			(at 172.72 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1f6b8eab-8054-4a3e-901a-34746124d592")
 		)
@@ -13035,6 +13398,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1590"
 			(at 228.6 127 0)
 			(hide yes)
 			(show_name no)
@@ -13117,6 +13491,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 31.75 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15401"
 			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -13285,6 +13670,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C23179"
+			(at 67.31 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7d9b49f6-b62e-42dc-851a-651c9e556fcd")
 		)
@@ -13356,6 +13752,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 149.86 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22104"
+			(at 149.86 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13444,6 +13851,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C14675"
+			(at 21.59 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "03d3c199-79d2-4f08-a516-8d61b22f7248")
 		)
@@ -13515,6 +13933,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 184.15 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14677"
+			(at 184.15 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13839,6 +14268,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5149201"
+			(at 163.83 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "427eae7b-911b-4ff2-a41b-dabe08ed7183")
 		)
@@ -13916,6 +14356,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 39.37 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15401"
+			(at 39.37 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14007,6 +14458,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1592"
+			(at 31.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "53dac6c4-20eb-440b-a764-c0709dfc22be")
 		)
@@ -14077,6 +14539,17 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 44.45 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C431540"
 			(at 44.45 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -14172,6 +14645,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1713"
+			(at 34.29 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3348319e-4bb9-482d-9860-25762b8c01f8")
 		)
@@ -14242,6 +14726,17 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 154.94 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C165948"
 			(at 154.94 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14377,6 +14872,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C51118"
+			(at 259.08 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "fa171477-cc29-4e17-a009-8fd86dafc2c7")
 		)
@@ -14457,6 +14963,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 172.72 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1590"
 			(at 172.72 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -14703,6 +15220,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C14675"
+			(at 125.73 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1f9c6938-4f25-4dac-98ad-d4c845964663")
 		)
@@ -14775,6 +15303,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 29.21 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14675"
 			(at 29.21 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -14866,6 +15405,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1590"
+			(at 262.89 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c862d00d-2b37-48b2-9227-fc0a2a7240ca")
 		)
@@ -14887,10 +15437,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e9a1a061-20c8-44d8-a470-8a46524ee602")
 		(property "Reference" "J3"
@@ -15028,6 +15578,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C14677"
+			(at 184.15 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bd0dca1f-034e-4978-ab00-3fc0953685f2")
 		)
@@ -15099,6 +15660,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 255.27 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5149201"
 			(at 255.27 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -15419,6 +15991,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 107.95 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15401"
+			(at 107.95 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
