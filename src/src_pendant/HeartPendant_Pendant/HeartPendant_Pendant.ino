@@ -1,26 +1,62 @@
-#include <Adafruit_NeoPixel.h>
+#include <WiFi.h>
+#include "BatteryMonitor.h"
+#include "LedRing.h"
+#include "RadioLink.h"
 
-#define DATA_PIN 10
-#define LED_COUNT 12
+BatteryMonitor batteryMonitor;
+LedRing ledRing;
+RadioLink radioLink;
 
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(LED_COUNT, DATA_PIN, NEO_GRB + NEO_KHZ800);
+uint32_t lastLogAt = 0;
+bool previousPairedState = false;
 
 void setup() {
-  strip.begin();
-  strip.show();
-  strip.setBrightness(50);
+  Serial.begin(115200);
+  delay(200);
+  Serial.println();
+  Serial.println("Heart Pendant -> Pendant | its also cooool!!!");
+  batteryMonitor.begin();
+  ledRing.begin();
+  if (!radioLink.begin()) {
+    Serial.println("ESP-NOW initialization failed");
+  } else {
+    Serial.print("MAC (& cheese): ");
+    Serial.println(WiFi.macAddress());
+  }
 }
 
 void loop() {
-  for (int i = 0; i < LED_COUNT; i++) {
-    strip.setPixelColor(i, strip.Color(255, 0, 0, 50));
-  }
-  strip.show();
-  delay(1000);
+  batteryMonitor.update();
+  radioLink.update(batteryMonitor.millivolts(), 0, false, false);
 
-  for (int i = 0; i < LED_COUNT; i++) {
-    strip.setPixelColor(i, strip.Color(0, 0, 0, 0));
+  HeartbeatEvent beat;
+  while (radioLink.takeHeartbeat(beat)) {
+    ledRing.triggerBeat();
+    Serial.print("Beat ");
+    Serial.print(beat.sequence);
+    Serial.print(" | Remote BPM: ");
+    Serial.print(beat.bpm);
+    Serial.print(" | Bracelet battery: ");
+    Serial.print(beat.batteryMv);
+    Serial.println(" mV");
   }
-  strip.show();
-  delay(1000);
+
+  ledRing.update();
+
+  bool paired = radioLink.isPaired();
+  if (paired != previousPairedState) {
+    Serial.println(paired ? "Bracelet paired" : "Bracelet disconnected; searching");
+    previousPairedState = paired;
+  }
+
+  uint32_t now = millis();
+  if (now - lastLogAt >= 2500) {
+    lastLogAt = now;
+    Serial.print("Pendant battery: ");
+    Serial.print(batteryMonitor.millivolts());
+    Serial.print(" mV (");
+    Serial.print(batteryMonitor.percent());
+    Serial.print("%) | Radio: ");
+    Serial.println(paired ? "paired" : "searching");
+  }
 }
