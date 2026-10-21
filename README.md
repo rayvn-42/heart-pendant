@@ -19,8 +19,8 @@ Its not really useful :), but its just fun and a reminder that each second your 
 The bracelet's ESP32-C3 reads a heartbeat sensor module and detects each beat. It sends the beat to the pendant using the ESP-NOW protocol. Then the pendants ESP32 displays that heartbeat as a simple rotational animation using the addressable LEDs. Each half has its own LiPo battery, USB C port with a dedicated charge controller, and a 3v3 regulator, so both can be charged and used separately.
 
 ### Schematic
-![Heart Pendant Schematic](Resources/Images/Heart_Pendant_Schematic_1)
-![Heart Pendant Schematic](Resources/Images/Heart_Pendant_Schematic_2)
+![Heart Pendant Schematic](Resources/Images/Heart_Pendant_Schematic_1.png)
+![Heart Pendant Schematic](Resources/Images/Heart_Pendant_Schematic_2.png)
 
 ## So far
 - [x] Schematic: ESP32 core, USB-C input, charger, regulator, power switch, battery sensing
